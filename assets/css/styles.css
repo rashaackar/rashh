@@ -1,0 +1,15 @@
+:root{--accent:#E1306C;--muted:#6c757d}
+html,body{height:100%}
+body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;line-height:1.5;background:#fff;color:#222}
+.brand-accent{color:var(--accent);font-weight:700}
+.hero{min-height:52vh;display:flex;align-items:center;padding:3.5rem 0;background:linear-gradient(135deg, rgba(225,48,108,0.06), rgba(64,93,230,0.04))}
+.hero-card{border-radius:14px;box-shadow:0 10px 30px rgba(15,23,42,0.06)}
+.btn-follow{background:linear-gradient(45deg,var(--accent),#ff8a65);color:#fff;border:0}
+.btn-ws{background:#25D366;color:#fff;border:0}
+.btn-rate{background:#4285F4;color:#fff;border:0}
+.quick-link{transition:transform .15s ease, box-shadow .15s ease}
+.quick-link:focus,.quick-link:hover{transform:translateY(-6px);box-shadow:0 10px 20px rgba(2,6,23,0.06)}
+.contact-card{max-width:900px;margin:auto;border-radius:12px}
+footer{background:#f8f9fa;padding:2rem 0}
+.accent{color:var(--accent)}
+@media (max-width:575.98px){.hero{padding:2rem 0}}
